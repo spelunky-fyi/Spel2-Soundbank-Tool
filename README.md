@@ -35,7 +35,7 @@ It can be downloaded here (you will need an Fmod account): https://www.fmod.com/
 Tool created by Luigi Auriemma https://aluigi.altervista.org/quickbms.htm
 Files extractor and reimporter, archives and file formats parser, advanced tool for reverse engineers and power users, and much more.
 
-The "FSB5.bms" script used to extract the .fsb files from the soundbank was downloaded from the ZenHAX forum (Official QuickBMS support).
+The "FSB5.bms" script used to extract the .fsb files from the Soundbank was downloaded from the ZenHAX forum (Official QuickBMS support).
 
 •	fsb_aud_extr
 
