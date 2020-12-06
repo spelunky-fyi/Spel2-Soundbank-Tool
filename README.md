@@ -6,7 +6,7 @@ It's mostly a combination of 3 different tools to make sound extract and repack 
 
 # How to use
 
-Just extract the .zip file somewhere you'll want to keep the extracted sound files, then run Spel2_Extract.cmd !
+Just extract the .zip file somewhere you'll want to keep the extracted sound files, then run Spel2_Extract.cmd!
 
 The script will automatically try to get the extracted Soundbank from the following path:
 "C:\Program Files (x86)\Steam\steamapps\common\Spelunky 2\Mods\Extracted\"
@@ -17,11 +17,10 @@ After providing the Soundbank, the extraction process can begin and will take ar
 When it's finished, you'll find the SFX files in "Spel2-Soundbank-Tool\Extracted\SFX\" and the MUSIC files in "Spel2-Soundbank-Tool\Extracted\MUSIC\". 
 There is no override folder at the moment so you'll want to replace the sound files directly in these two folders when you need to. 
 
-When you are done modifying the sound files you can just run Spel2_Repack.cmd !
-You can run the repack script every time you make a sound modification, this process is pretty fast so it should take less than a minute.
+When you are done modifying the sound files you can just run Spel2_Repack.cmd! You can run the repack script every time you make a sound modification, it will fully rebuild the Soundbank every time. This process is pretty fast so it should take less than a minute.
 
 A modified "soundbank.bank" file will finally be created in "Spel2-Soundbank-Tool\Repack\Soundbank\"
-You can then copy it into your favorite Spelunky 2 Override folder and repack it into the game with Modlunky2 or s2-Data.
+Then, you can copy it into your favorite Spelunky 2 Override folder and repack it into the game with Modlunky2 or s2-Data.
 
 # External tools used in this project
 
