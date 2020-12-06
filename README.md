@@ -6,7 +6,7 @@ It's mostly a combination of 3 different tools to make sound extract and repack 
 
 # How to use
 
-Just copy the tool somewhere you'll want to keep the extracted sound files, then run Spel2_Extract.cmd !
+Just extract the .zip file somewhere you'll want to keep the extracted sound files, then run Spel2_Extract.cmd !
 
 The script will automatically try to get the extracted Soundbank from the following path:
 "C:\Program Files (x86)\Steam\steamapps\common\Spelunky 2\Mods\Extracted\"
