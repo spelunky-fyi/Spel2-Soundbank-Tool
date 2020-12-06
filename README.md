@@ -8,12 +8,14 @@ It's mostly a combination of 3 different tools to make both extract and repack p
 
 Just copy the tool somewhere you'll want to keep the extracted sound files, then run Spel2_Extract.cmd !
 
-The script will automatically try to get the extracted Soundbank from the following path "C:\Program Files (x86)\Steam\steamapps\common\Spelunky 2\Mods\Extracted\"
+The script will automatically try to get the extracted Soundbank from the following path:
+"C:\Program Files (x86)\Steam\steamapps\common\Spelunky 2\Mods\Extracted\"
 
 If your extracted Soundbank is not there, you can just manually copy the "soundbank.bank" file into the tool's workspace : "Spel2-Soundbank-Tool\Extracted\Soundbank\"
 After providing the Soundbank the extraction process should begin and will take around 10 minutes in total (the .wav extractor tool is pretty slow)
 
-When it's finished, you'll find the SFX files in "Spel2-Soundbank-Tool\Extracted\SFX\" and the MUSIC files in "Spel2-Soundbank-Tool\Extracted\MUSIC\"
+When it's finished, you'll find the SFX files in "Spel2-Soundbank-Tool\Extracted\SFX\" 
+and the MUSIC files in "Spel2-Soundbank-Tool\Extracted\MUSIC\"
 
 There is no override folder at the moment so you'll want to replace the sound files directly in these two folders when you need to. 
 
