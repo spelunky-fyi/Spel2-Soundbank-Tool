@@ -1,8 +1,8 @@
 # Spelunky 2 Soundbank Tool
 
-This is a tool that allows to extract all Spelunky 2 sound files & music, then repack them into the soundbank after modification.
+This is a tool that allows to extract all Spelunky 2 sound files & music, then repack them into the Soundbank after modification.
 
-It's mostly a combination of 3 different tools to make both extract and repack possible without having to do everything manually.
+It's mostly a combination of 3 different tools to make both extract and repack possible without having to do many things manually.
 
 # How to use
 
