@@ -14,7 +14,7 @@ The script will automatically try to get the extracted Soundbank from the follow
 If your extracted Soundbank is not there, you can just manually copy the "soundbank.bank" file into the tool's workspace : "Spel2-Soundbank-Tool\Extracted\Soundbank\". 
 After providing the Soundbank, the extraction process can begin and will take around 10 minutes in total (the .wav extractor tool is quite slow).
 
-When it's finished, you'll find the SFX files in "Spel2-Soundbank-Tool\Extracted\SFX\" and the MUSIC files in "Spel2-Soundbank-Tool\Extracted\MUSIC\". 
+When it's finished, you'll find the SFX files inside "Spel2-Soundbank-Tool\Extracted\SFX\" and the MUSIC files in "Spel2-Soundbank-Tool\Extracted\MUSIC\". 
 There is no override folder at the moment so you'll want to replace the sound files directly in these two folders when you need to. 
 
 When you are done modifying the sound files you can just run Spel2_Repack.cmd! You can run the repack script every time you make a sound modification, it will fully rebuild the Soundbank every time. This process is pretty fast so it should take less than a minute.
