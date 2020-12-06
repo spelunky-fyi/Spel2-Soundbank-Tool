@@ -18,10 +18,8 @@ When it's finished, you'll find the SFX files inside "Spel2-Soundbank-Tool\Extra
 There is no override folder at the moment so you'll want to replace the sound files directly in these two folders when you need to.
 
 YOU NEED TO BE CAREFULL ABOUT THE SIZE OF YOUR NEW SOUND FILES!
-
-With the current compression levels, you can add around 35Mb for SFX and 140Mb for MUSIC
-
-If you go beyond these limits you will get the following error at the end of the Repack process: "The reimport option acts as a reinjector, thereforey ou cannot insert a file if it's larger than the original for not overwriting the rest of the archive which cannot be loaded correctly"
+With the current compression levels, you can add around 35Mb for SFX and 120Mb for MUSIC
+If you go beyond these limits you will get the following error : "THE NEW SFX / MUSIC .FSB FILE IS TOO BIG!"
 
 When you are done modifying the sound files you can just run Spel2_Repack.cmd! You can run the repack script every time you make a sound modification, it will fully rebuild the Soundbank every time. This process is pretty fast so it should take less than a minute.
 
