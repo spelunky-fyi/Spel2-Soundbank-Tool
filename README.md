@@ -9,7 +9,7 @@ It's mostly a combination of 3 different tools to make sound extract and repack 
 Just extract the .zip file somewhere you'll want to keep the extracted sound files, then run Spel2_Extract.cmd!
 
 The script will automatically try to get the extracted Soundbank from the following path:
-"C:\Program Files (x86)\Steam\steamapps\common\Spelunky 2\Mods\Extracted\"
+"C:\Program Files (x86)\Steam\steamapps\common\Spelunky 2\Mods\Extracted\".
 
 If your extracted Soundbank is not there, you can just manually copy the "soundbank.bank" file into the tool's workspace : "Spel2-Soundbank-Tool\Extracted\Soundbank\". 
 After providing the Soundbank, the extraction process can begin and will take around 10 minutes in total (the .wav extractor tool is quite slow).
