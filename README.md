@@ -44,4 +44,4 @@ The "FSB5.bms" script used to extract the .fsb files from the soundbank was down
 
 Tool created by id-daemon on the ZenHAX forum to convert the fsb to wav, is great for CELT and ogg vorbis audios.
 
-Last version’s download link (2018): https://zenhax.com/download/file.php?id=5808 
+Last version’s download link (2018): https://zenhax.com/download/file.php?id=5808
