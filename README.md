@@ -12,6 +12,7 @@ The script will automatically try to get the extracted Soundbank from the follow
 "C:\Program Files (x86)\Steam\steamapps\common\Spelunky 2\Mods\Extracted\"
 
 If your extracted Soundbank is not there, you can just manually copy the "soundbank.bank" file into the tool's workspace : "Spel2-Soundbank-Tool\Extracted\Soundbank\"
+
 After providing the Soundbank, the extraction process can begin and will take around 10 minutes in total (the .wav extractor tool is quite slow)
 
 When it's finished, you'll find the SFX files in "Spel2-Soundbank-Tool\Extracted\SFX\" 
