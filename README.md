@@ -38,7 +38,7 @@ If you want to include the Soundbank file itself in your mod, you can still get 
 
 It's size won't directly be changed comparing to the original, but as most of it is replaced with empty data, you can just compress it by adding it to a .zip file !
 
-Then the 392 Mb .bank file will become a 55 Mb .zip that's way easier to distribute !
+Then the 392Mb .bank file will become a 55Mb .zip that's way easier to distribute !
 
 # FSB Repack
 
