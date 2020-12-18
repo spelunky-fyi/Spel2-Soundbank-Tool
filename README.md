@@ -32,11 +32,19 @@ Then, you can copy it into your favorite Spelunky 2 Override folder and repack i
 You can use the Spel2_Repack_SuperComp.cmd script to repack everything in supercompressed mode.
 This way you will get .FSB files with the following sizes : around 10Mb for SFX & 50Mb for MUSIC !
 
-Then can find your custom FSB files inside "Spel2-Soundbank-Tool\Repack\FSB5"
-The FSB_Repack.cmd script will allow you to inject one or both files inside the soundbank
+Then can find your repacked FSB files inside "Spel2-Soundbank-Tool\Repack\FSB5"
 
-You just need to get the 00000000.fsb file for SFX and/or 00000001.fsb for MUSIC.
-They need to be placed inside "Spel2-Soundbank-Tool\Repack\FSB5" before using FSB_Repack
+# FSB Repack
+
+The FSB_Repack.cmd script will allow you to inject one or both .FSB files inside the Soundbank
+You just need to get the 00000000.fsb file for SFX and/or 00000001.fsb for MUSIC and place them inside "Spel2-Soundbank-Tool\Repack\FSB5" before using FSB_Repack
+
+You also need to have the original Spelunky 2 Sounbank file inside "Spel2-Soundbank-Tool\Extracted\Soundbank\"
+
+The script will automatically try to get the extracted Soundbank from the following path:
+"C:\Program Files (x86)\Steam\steamapps\common\Spelunky 2\Mods\Extracted\".
+
+If your extracted Soundbank is not there, you can just manually copy the "soundbank.bank" file into the tool's workspace.
 
 # External tools used in this project
 
