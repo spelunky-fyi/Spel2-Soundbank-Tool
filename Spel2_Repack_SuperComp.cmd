@@ -1,7 +1,6 @@
 @echo off
 
-set sfx-optimize=-optimize_samplerate
-set music-quality=65
+set audio-quality=1
 
 set scriptpath=%~dp0
 cd %scriptpath%
@@ -35,7 +34,7 @@ REM The optimize parameter will compress the sfx .fsb file to allow more space f
 
 IF EXIST "Repack\FSB5\00000000.fsb" echo Warning, this will override the old repacked SFX! &timeout /T 10
 
-API-Fmod\fsbankcl.exe -rebuild -format pcm %sfx-optimize% -o "Repack\FSB5\00000000.fsb" "Extracted\SFX\SFX.lst"
+API-Fmod\fsbankcl.exe -rebuild -format vorbis -quality %audio-quality% -o "Repack\FSB5\00000000.fsb" "Extracted\SFX\SFX.lst"
 
 REM Making sure that the new sfx .fsb file is not bigger than the extracted one
 FOR %%I in (Extracted\FSB5\00000000.fsb) do set size-sfx-ext=%%~zI
@@ -46,10 +45,9 @@ IF %size-sfx-rep% GTR %size-sfx-ext% echo. &echo THE NEW SFX .FSB FILE IS TOO BI
 REM Use Fsbank to generate a new .fsb file from the music files list created during the extraction process
 REM The music files are compressed to vorbis, you can lower the quality value to make the music .fsb file smaller (71 will get it just under the original size)
 
-
 IF EXIST "Repack\FSB5\00000001.fsb" echo. &echo Warning, this will override the old repacked MUSIC! &timeout /T 10
 
-API-Fmod\fsbankcl.exe -rebuild -format vorbis -quality %music-quality% -o "Repack\FSB5\00000001.fsb" "Extracted\MUSIC\MUSIC.lst"
+API-Fmod\fsbankcl.exe -rebuild -format vorbis -quality %audio-quality% -o "Repack\FSB5\00000001.fsb" "Extracted\MUSIC\MUSIC.lst"
 
 REM Making sure that the new music .fsb file is not bigger than the extracted one
 FOR %%I in (Extracted\FSB5\00000001.fsb) do set size-music-ext=%%~zI
