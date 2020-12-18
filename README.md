@@ -36,8 +36,9 @@ After running the script, you can find your repacked FSB files inside "Spel2-Sou
 
 If you want to include the Soundbank file itself in your mod, you can still get the "soundbank.bank" file that will be created inside "Spel2-Soundbank-Tool\Repack\Soundbank\"
 
-It's size won't directly be changed comparing to the original, but as most of it is replaced with empty data you can just compress it by adding it to a .zip file !
-Then the 392 Mb file will become a 55 Mb .zip that's way easier to distribute !
+It's size won't directly be changed comparing to the original, but as most of it is replaced with empty data, you can just compress it by adding it to a .zip file !
+
+Then the 392 Mb .bank file will become a 55 Mb .zip that's way easier to distribute !
 
 # FSB Repack
 
