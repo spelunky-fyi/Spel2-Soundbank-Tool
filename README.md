@@ -40,6 +40,8 @@ It's size won't directly be changed comparing to the original, but as most of it
 
 Then the 392Mb .bank file will become a 55Mb .zip that's way easier to distribute !
 
+The audio quality seems to be lower when using this mode. Not everyone can hear it, but if it's bothering you the quality value can be changed at the beggining of the "Spel2_Repack_SuperComp.cmd" script. You can change the line "set audio-quality=1" to a higher value to try finding a better quality. The default quality is around 71, a higher value will not allow the music to be repacked because of the .FSB's size.
+
 # FSB Repack
 
 Before repacking the .FSB files into the Soundbank, you need to have the original Spelunky 2 Sounbank file.
