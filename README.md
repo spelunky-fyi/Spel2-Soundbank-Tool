@@ -4,6 +4,8 @@ This tool allows you to extract all Spelunky 2 sfx & music, then repack them int
 
 It's mostly a combination of 3 different tools to make sound extract and repack possible without having to do many tedious things manually.
 
+You can [click here to Download the latest version](https://github.com/spelunky-fyi/modlunky2/releases) of the Spel2-Soundbank-Tool !
+
 # How to use
 
 Just extract the .zip file somewhere you'll want to keep the extracted sound files, then run Spel2_Extract.cmd!
